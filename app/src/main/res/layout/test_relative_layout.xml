@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/s8"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext"
+            android:id="@+id/ed_user"
+            android:layout_width="311dp"
+            android:layout_height="45dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="8dp"
+            android:hint="请输入用户名"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext"
+            android:id="@+id/pass"
+            android:layout_width="311dp"
+            android:layout_height="45dp"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="8dp"
+            android:hint="请输入密码"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_margin="5dp"
+            android:background="@drawable/edittext"
+            android:id="@+id/date"
+            android:layout_width="311dp"
+            android:layout_height="47dp"
+            android:layout_above="@+id/checkBox"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/date"
+            android:drawablePadding="8dp"
+            android:hint="请选择日期"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            style="@style/CustomCheckBoxTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="记住用户名"
+            android:textColor="#939191"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textColor="#4e4b4b"
+            android:id="@+id/bt_login"
+            android:layout_width="258dp"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/editsharplogin"
+            android:text="登录" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_margin="5dp"
+            android:textColor="#4e4b4b"
+            android:id="@+id/bt_quit"
+            android:layout_width="258dp"
+            android:layout_height="45dp"
+            android:background="@drawable/editsharp"
+            android:text="退出" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="版本号1.0.00" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
